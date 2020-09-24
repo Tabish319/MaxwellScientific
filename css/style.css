@@ -1,0 +1,105 @@
+body{
+    font-family: "Montserrat"
+}
+h1{
+    font-family: "Montserrat-Black";
+    font-size: 4rem;
+    line-height: 1.5; 
+    color: rgb(255, 255, 255); 
+}
+h2{
+    font-family:"Montserrat-Bold" ;
+    font-size: 2rem;
+    line-height: 2;
+}
+#title{
+    background-color: #24a19c;
+    color: rgb(255, 255, 255);
+}
+#features{
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+}
+#features h3 {
+    font-family: "Montserrat-Bold";
+    font-size: 1.5rem;
+}
+#features p{
+    color: #8f8f8f;
+}
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+}
+#pricing{
+    padding: 3% 15% 
+}
+#testimonials{
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #24a19c;
+    color: rgb(255, 255, 255);
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    padding-bottom: 0px;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-links{
+    font-size: 1.5rem;
+     
+}
+.iimg{
+ width: 20%;
+ border-radius: 100%;
+ padding: 3%;
+}
+.price{
+    padding: 3% 2%;
+    text-align: center;
+}
+@media(max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+}
+#page-header p { border:1px outset black;}
+#page-content {
+	margin:0 auto;
+	width:80%; 
+	padding:2em;
+	margin-top:5em;
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);	
+	border-radius:6px;
+    color: rgb(255, 255, 255);
+}
+.center { 
+	margin:0 auto; 
+	width:100%; 
+}
+.align-center { 
+	text-align:center; 
+	width:50%; 
+	margin: 0 auto;
+}
+.top {
+    padding-top: 225px;
+    text-align: center;
+}
+.topp{
+    padding-top: 20px;
+}
+#address { float:right; padding-right:5em; }
